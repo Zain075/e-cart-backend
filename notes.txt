@@ -1,0 +1,45 @@
+     notes - backend
+ ----------------------
+
+Node Server Creation
+------------------------
+
+ 1. create package.json in folder 
+            -> npm  init -y
+
+ 2. install express and some other
+            -> npm i express cors mongoose dotenv
+
+            -> Express - Nodejs framework and it creates an application in backend
+            -> Cors - Used to connect two different ports (frontend - 4200 and backend 5000)
+            -> Mongoose -  this library used to connect node and mongodb
+            -> dotenv  - this is environment variable, that are used to store app secrets and configuration
+
+  4. Create .gitignore file and .env file
+
+  5. create index.js file (main entry point)
+
+Mongodb Atlas configuration
+-------------------------------
+
+  6. add connection string to .env file
+
+  7. create a connection.js for connect node and mongodb
+
+  8. Use mongose to connect mongodb within the node application
+
+  9. Import connection.js in index.js
+
+  10. Create model/collection to store products - Model/productchema.js and export it
+
+  11. To define route for client requests - routes/router.js
+
+  12. To Create controller folder inorder to define the logic to resolve the API requests
+
+  13. 
+
+
+
+
+       
+
